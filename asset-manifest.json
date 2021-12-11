@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/BIMARK/static/css/main.ae98b581.chunk.css",
+    "main.js": "/BIMARK/static/js/main.fcd80f95.chunk.js",
+    "main.js.map": "/BIMARK/static/js/main.fcd80f95.chunk.js.map",
+    "runtime-main.js": "/BIMARK/static/js/runtime-main.b74fa22f.js",
+    "runtime-main.js.map": "/BIMARK/static/js/runtime-main.b74fa22f.js.map",
+    "static/css/2.83b5cdb7.chunk.css": "/BIMARK/static/css/2.83b5cdb7.chunk.css",
+    "static/js/2.c0b3b3d0.chunk.js": "/BIMARK/static/js/2.c0b3b3d0.chunk.js",
+    "static/js/2.c0b3b3d0.chunk.js.map": "/BIMARK/static/js/2.c0b3b3d0.chunk.js.map",
+    "static/js/3.b5120019.chunk.js": "/BIMARK/static/js/3.b5120019.chunk.js",
+    "static/js/3.b5120019.chunk.js.map": "/BIMARK/static/js/3.b5120019.chunk.js.map",
+    "index.html": "/BIMARK/index.html",
+    "static/css/2.83b5cdb7.chunk.css.map": "/BIMARK/static/css/2.83b5cdb7.chunk.css.map",
+    "static/css/main.ae98b581.chunk.css.map": "/BIMARK/static/css/main.ae98b581.chunk.css.map",
+    "static/js/2.c0b3b3d0.chunk.js.LICENSE.txt": "/BIMARK/static/js/2.c0b3b3d0.chunk.js.LICENSE.txt",
+    "static/media/28991.2e74d23a.jpg": "/BIMARK/static/media/28991.2e74d23a.jpg",
+    "static/media/App.scss": "/BIMARK/static/media/Poppins-Medium.9e1bb626.ttf",
+    "static/media/abstract-blur-in-supermarket.f4a8e006.jpg": "/BIMARK/static/media/abstract-blur-in-supermarket.f4a8e006.jpg",
+    "static/media/add.5b4f4653.svg": "/BIMARK/static/media/add.5b4f4653.svg",
+    "static/media/cart.3330d32a.svg": "/BIMARK/static/media/cart.3330d32a.svg",
+    "static/media/cross.3247fb73.svg": "/BIMARK/static/media/cross.3247fb73.svg",
+    "static/media/loupe.af4c5314.svg": "/BIMARK/static/media/loupe.af4c5314.svg",
+    "static/media/menu.e4ab330a.svg": "/BIMARK/static/media/menu.e4ab330a.svg",
+    "static/media/minus.10d5e9c2.svg": "/BIMARK/static/media/minus.10d5e9c2.svg",
+    "static/media/personas.b347dee8.jpg": "/BIMARK/static/media/personas.b347dee8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b74fa22f.js",
+    "static/css/2.83b5cdb7.chunk.css",
+    "static/js/2.c0b3b3d0.chunk.js",
+    "static/css/main.ae98b581.chunk.css",
+    "static/js/main.fcd80f95.chunk.js"
+  ]
+}

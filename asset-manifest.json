@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/BIMARK/static/css/main.ae98b581.chunk.css",
-    "main.js": "/BIMARK/static/js/main.fcd80f95.chunk.js",
-    "main.js.map": "/BIMARK/static/js/main.fcd80f95.chunk.js.map",
+    "main.js": "/BIMARK/static/js/main.7ac9c147.chunk.js",
+    "main.js.map": "/BIMARK/static/js/main.7ac9c147.chunk.js.map",
     "runtime-main.js": "/BIMARK/static/js/runtime-main.b74fa22f.js",
     "runtime-main.js.map": "/BIMARK/static/js/runtime-main.b74fa22f.js.map",
     "static/css/2.83b5cdb7.chunk.css": "/BIMARK/static/css/2.83b5cdb7.chunk.css",
-    "static/js/2.c0b3b3d0.chunk.js": "/BIMARK/static/js/2.c0b3b3d0.chunk.js",
-    "static/js/2.c0b3b3d0.chunk.js.map": "/BIMARK/static/js/2.c0b3b3d0.chunk.js.map",
+    "static/js/2.60dca32e.chunk.js": "/BIMARK/static/js/2.60dca32e.chunk.js",
+    "static/js/2.60dca32e.chunk.js.map": "/BIMARK/static/js/2.60dca32e.chunk.js.map",
     "static/js/3.b5120019.chunk.js": "/BIMARK/static/js/3.b5120019.chunk.js",
     "static/js/3.b5120019.chunk.js.map": "/BIMARK/static/js/3.b5120019.chunk.js.map",
     "index.html": "/BIMARK/index.html",
     "static/css/2.83b5cdb7.chunk.css.map": "/BIMARK/static/css/2.83b5cdb7.chunk.css.map",
     "static/css/main.ae98b581.chunk.css.map": "/BIMARK/static/css/main.ae98b581.chunk.css.map",
-    "static/js/2.c0b3b3d0.chunk.js.LICENSE.txt": "/BIMARK/static/js/2.c0b3b3d0.chunk.js.LICENSE.txt",
+    "static/js/2.60dca32e.chunk.js.LICENSE.txt": "/BIMARK/static/js/2.60dca32e.chunk.js.LICENSE.txt",
     "static/media/28991.2e74d23a.jpg": "/BIMARK/static/media/28991.2e74d23a.jpg",
     "static/media/App.scss": "/BIMARK/static/media/Poppins-Medium.9e1bb626.ttf",
     "static/media/abstract-blur-in-supermarket.f4a8e006.jpg": "/BIMARK/static/media/abstract-blur-in-supermarket.f4a8e006.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.b74fa22f.js",
     "static/css/2.83b5cdb7.chunk.css",
-    "static/js/2.c0b3b3d0.chunk.js",
+    "static/js/2.60dca32e.chunk.js",
     "static/css/main.ae98b581.chunk.css",
-    "static/js/main.fcd80f95.chunk.js"
+    "static/js/main.7ac9c147.chunk.js"
   ]
 }

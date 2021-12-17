@@ -1,0 +1,26 @@
+.grid-destacados {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    justify-items: center;
+}
+
+@media (min-width:600px) and (max-width:950px){
+    .grid-destacados {
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 20px;
+    }
+}
+@media (min-width:950px){
+    .grid-destacados {
+        grid-template-columns: repeat(4,1fr);
+        row-gap: 20px;
+    }
+}
+
+@media (min-width:1800px){
+    .grid-destacados {
+        grid-template-columns: repeat(5,1fr);
+        row-gap: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+@use '../../util/variables' as var;
+
+.footer {
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: flex-start;
+    row-gap: 2em;
+    .redes,.creditos {
+        text-align: center;
+        h2 {
+            color: var.$primary;
+            margin-bottom: 5px;
+        }
+    }
+    .redes {
+        span {
+            i {
+                color: #ccc;
+                font-size: 1.5em;
+            }
+        }
+    }
+    .creditos {
+        a {
+            color: var.$secondary;
+            &:hover {
+                color: #65a2ff;
+            }
+        }
+    }
+}
+@media (min-width: 700px){
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}

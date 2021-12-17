@@ -1,0 +1,12 @@
+@use '../../util/variables' as var;
+.titulo {
+    background-color: var.$primary;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 2px #333;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0px 5%;
+    border-radius: 5px;
+}

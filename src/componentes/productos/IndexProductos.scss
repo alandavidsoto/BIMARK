@@ -1,0 +1,36 @@
+.contenedor-productos{
+    .categorias {
+        padding: 5px;
+        box-shadow: 0px 0px 3px #ccc;
+        width: 98%;
+        margin: 10px auto;
+        .swipe {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            //normalizando el boton
+            border: none;
+            background-color: #fff;
+            font-size: 1em;
+            i {
+                font-size: 1.5em;
+            }
+        }
+        span {
+            &:hover {
+                color: rgb(56, 56, 56);
+            }
+        }
+    }
+}
+
+@media (min-width:950px){
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        .categorias{
+            margin: initial;
+        }
+    }
+}

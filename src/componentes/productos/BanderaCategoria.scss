@@ -1,0 +1,13 @@
+@use '../../util/variables' as var;
+.bandera-categoria {
+    margin: 1em 0px;
+    height: 55px;
+    background-color: var.$secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-size: 1.2em;
+        color: #fff;
+    }
+}

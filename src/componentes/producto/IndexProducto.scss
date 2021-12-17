@@ -1,0 +1,80 @@
+/* @import '../../util/_variables.scss'; */
+@use '../../util/variables' as var;
+
+.container-producto {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 400px 1fr;
+    .container-imagen {
+        border: 1px solid #ccc;
+        text-align: center;
+        width: 95%;
+        /* height: 400px; */
+        margin: 0px auto;
+        padding: 10px;
+        box-shadow: 0px 0px 3px #ccc;
+        border-radius: 5px;
+        img {
+            width: 100%;
+            height:100%;
+            object-fit: contain;
+        }
+    }
+    .container-descripcion {
+        width: 95%;
+        margin: 0px auto;
+        & > * {
+            margin-bottom: 5%;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        .container-precio {
+            & > * {
+                margin-right: 2%;
+            }
+            .precio-final {
+                color: var.$newPrecio ;
+                border: 1px solid var.$newPrecio;
+            }
+            // si existe un descuento, se aplicaran estos estilos
+            .precio-anterior,.precio-final {
+                font-size: 1.3em;
+                font-weight: 700;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .precio-anterior {
+                color: var.$oldPrecio;
+                border: 1px solid var.$oldPrecio;
+            }
+            .cartel-descuento {
+                background: var.$newPrecio;
+                border-radius: 5px;
+                padding: 5px;
+                color: #fff
+            }
+        }
+        .agregar_carrito {
+            background-color: #3fa659;
+            color: #fff;
+            font-size: 1em;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width:750px){
+    .container-producto {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:1700px){
+    .container-producto {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 600px;
+    }
+}

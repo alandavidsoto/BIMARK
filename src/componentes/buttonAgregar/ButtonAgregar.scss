@@ -1,7 +1,7 @@
-@use '../../util/variables' as var;
+@use "../../util/variables" as var;
 #buttonAgregar {
-    background: var.$botonAgregar;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 3px;
+  background: var.$botonAgregar;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
 }
